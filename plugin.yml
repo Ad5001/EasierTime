@@ -1,0 +1,39 @@
+---
+name: EasierTime
+author: Ad5001
+version: "1.2"
+api: [2.0.0]
+main: Ad5001\EasierTime\Main
+commands: 
+   day:
+       description: "Set the time to day"
+       usage: "/day"
+       permission: easiertime.day
+   night:
+       description: "Set the time to night"
+       usage: "/night"
+       permission: easiertime.night
+   etload:
+       description: "Load EasierTime"
+       usage: "/etload"
+       permission: easiertime.etload
+   stoptime:
+       description: "Stop the time to day or night"
+       usage: "/stoptime <day | night | false>"
+       permission: easiertime.stoptime
+   speedtime:
+       description: "Change the time speed"
+       usage: "/speedtime <multiplicator>"
+       permission: easiertime.command.speedtime
+permissions: 
+   easiertime.day:
+       default: op
+   easiertime.night:
+       default: op
+   easiertime.stoptime:
+       default: op
+   easiertime.etload:
+       default: op
+   easiertime.command.speedtime:
+       default: op
+...

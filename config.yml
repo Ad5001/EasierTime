@@ -1,0 +1,17 @@
+---
+# Welcome to the config of EasierTime!
+
+# Here are the messages used in the plugin
+TimeNightMSG: "Time is set to night!"
+TimeDayMSG: "Time is set to day"
+
+# Here you can change the speed of the time (1 day is basicly 20 minutes) use a multiplicator. Use a - to make the time to go backwards . Set to 0 to stop thetime
+TimeSpeed: "2000"
+
+# Do NOT modify ANYTHINKNbelow this line UNTIL you know what it is
+StaticTime: "false"
+
+# Loaded your server multiple time and make your server lag? Clear it all from here (Comming soon)
+ClearLag: "false" 
+
+...
